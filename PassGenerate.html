@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalki Password Management System</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="img/Logo.jpg" alt="Logo"></div>
+            <li><a href="main.html">Home</a> </li>
+            <li><a href="PassManager.html">Password Manger</a> </li>
+            <li><a href="services.html">Services</a> </li>
+            <li><a href="contact.html">Contact Us</a> </li>
+        </ul>
+        <div class="rightnav">
+            
+            <button class="btn btn-sm">
+                <a href="login.html"> Logout</a>
+            </button>
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="main-div1" id="main">
+            <div class="box-main" id="insinde" data-animate-on-scroll>
+              <div class="firstHalf" >
+              <p class="text-big" >Generator</p>
+              <p class="text-small" >For security purposes we need to have 
+                strong passwords so that date can be safe</p>
+              
+                </div>
+            <div class="secondHalf" >
+                <input id="pwd-gen" class="rectangle-input2" type="text" autofocus readonly value="Start Generating"/>
+                
+
+            <div class="buttons" >
+                <button class="btn" autofocus onclick="generate_and_copy()">Generate and Copy</button>
+                
+
+                </div>
+    
+              
+            </div>
+            </div>
+          </div>
+
+    </section>
+
+
+    <section class="back sec2">
+        <div class="optn">
+        <p class="text-small">
+            Difficulty in managing Passwords?
+        </p>
+        <a href="PassManager.html"> Manage now</a>
+
+    </div>
+    <div class="xtraimage">
+        <img src="img/padlock.jpg" alt="Padlock" class="imgFluid">
+    </div>
+        
+    </section>
+</body>
+
+</html>
