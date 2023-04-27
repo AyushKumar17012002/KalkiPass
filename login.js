@@ -17,7 +17,7 @@ const UserList = ['kalki1', 'kalki2'];
     const pass = document.getElementById('password').value;
   
     if (validateLogin(user, pass)) {
-      window.location.replace("PassManager.html");
+      window.location.replace("main.html");
     } else {
       alert('Invalid username or password.');
     }
