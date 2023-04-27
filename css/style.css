@@ -154,6 +154,19 @@
    
     margin: auto;
 }
+.pass-dp {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid #333;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+  }
 
 .xtraimage img{
     height: 130px;
